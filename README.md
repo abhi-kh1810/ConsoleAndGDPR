@@ -11,6 +11,41 @@ A Python script that automatically navigates to a website, handles cookie consen
 - **Structured Output**: Saves errors as JSON files in organized directory structure
 - **Comprehensive Error Detection**: Captures various types of console messages and page errors
 
+## Installation
+
+### Prerequisites
+
+- Python 3.7 or higher
+- pip (Python package installer)
+
+### Create a Virtual Environment
+
+It's recommended to use a virtual environment to avoid conflicts with other Python projects.
+
+#### For Mac/Linux:
+```bash
+# Create virtual environment
+python3 -m venv venv
+
+# Activate virtual environment
+source venv/bin/activate
+```
+
+#### For Windows:
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment (Command Prompt)
+venv\Scripts\activate
+
+# Or for PowerShell
+venv\Scripts\Activate.ps1
+```
+
+**Note**: You'll see `(venv)` in your terminal prompt when the virtual environment is active.
+
+
 ## Setup
 
 1. **Install Dependencies**:
